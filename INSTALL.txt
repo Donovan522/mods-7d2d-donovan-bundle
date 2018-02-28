@@ -1,0 +1,7 @@
+How to Install:
+
+1. Right Click 7 Days To Die in your steam library and select properties
+2. Click the Local Files Tab
+3. Click the Browse local files button. This will open your 7DTD install directory in windows.
+4. Open the downloaded zip and drag and drop the Data folder into your game directory, overwrite files when prompted.
+
