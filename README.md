@@ -5,6 +5,10 @@ This bundle currently includes the following mods:
 - [SMX w/ Valmod UI][smx]
 - [SMX BigBag Mod][bigbag]
 
+Additional Modifications
+- Increased damage to earth and stone blocks with the Auger
+- A customized Lawn mower based on [Kajs' lawnmower][kajs_lawnmower] 
+
 ## How to Install
 
 This repository is meant to be used with the [7d2d launcher][launcher], using the [Archive Link][archive]
@@ -24,3 +28,4 @@ However; if you want to install manually, here's how:
 [sdx]: https://github.com/Donovan522/mods-7d2d-sdx
 [smx]: https://github.com/Sirillion/VALMOD
 [bigbag]: https://github.com/Sirillion/BIGBAG
+[kajs_lawnmower]: https://www.nexusmods.com/7daystodie/mods/75
