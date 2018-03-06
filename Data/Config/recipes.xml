@@ -1250,7 +1250,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="spring" count="5" />
 	</recipe>
 
-
 	<recipe name="compoundBow" count="1" craft_area="assembly">
 		<ingredient name="partsCompoundBow_body" count="1" />
 		<ingredient name="partsCompoundBow_grip" count="1" />
@@ -1452,7 +1451,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="oil" count="10" />
 		<ingredient name="spring" count="5" />
 	</recipe>
-
 
 	<recipe name="hayBaleBlock" count="1">
 		<ingredient name="yuccaFibers" count="10" />
@@ -2664,7 +2662,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="forgedSteel" count="9" />
 		<ingredient name="mechanicalParts" count="3" />
 	</recipe>
-
 
 	<recipe name="generatorbank" count="1" craft_area="workbench">
 		<ingredient name="forgedIron" count="10" />

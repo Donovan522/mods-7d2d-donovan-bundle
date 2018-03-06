@@ -392,7 +392,6 @@ Mesh files no longer used:
 		<property name="RepairExpMultiplier" value="5.5" />
 	</item>
 
-
 	<!-- 40* * * * * * * * * * firearms * * * * * * * * * * -->
 
 	<item id="40" name="gunPistol">
@@ -2040,6 +2039,12 @@ Mesh files no longer used:
 			<property name="DamageBonus.wood" value="0.25" />
 			<property name="DamageBonus.head" value="3" />
 			<property name="DamageBonus.glass" value="1" />
+			<property name="DamageBonus.earth" value="4" />
+			<property name="DamageBonus.snow" value="4" />
+			<property name="DamageBonus.stone" value="2" />
+			<property name="DamageBonus.boulder" value="2" />
+			<property name="DamageBonus.concrete" value="2" />
+			<property name="DamageBonus.metal" value="0.5" />
 			<property name="SupportHarvesting" value="true" />
 			<property name="UseMeleeCrosshair" value="true" />
 			<property name="ToolCategory.harvestingTools" value="2" param1="1" />
@@ -6076,7 +6081,6 @@ Mesh files no longer used:
 		<property name="EconomicValue" value="200" />
 	</item>
 
-
 	<!-- * * * * * * * * * * food, water, medical items * * * * * * * * * * -->
 
 	<item id="650" name="splint">
@@ -6528,7 +6532,6 @@ Mesh files no longer used:
 		</property>
 		<property name="Group" value="Food/Cooking" /> <!-- ,Medicine -->
 	</item>
-
 
 	<item id="702" name="foodYuccaJuice">
 		<property name="Meshfile" value="Items/Food/yucca_juicePrefab" />
@@ -7014,7 +7017,6 @@ Mesh files no longer used:
 		<property name="Smell" value="exLargeSmell" />
 		<property name="Group" value="Food/Cooking" />
 	</item>
-
 
 	<item id="750" name="potato">
 		<property name="Meshfile" value="Items/Food/vegetable_potatoPrefab" />
@@ -9507,7 +9509,6 @@ Mesh files no longer used:
 		<property name="Material" value="clay" />
 		<property name="CreativeMode" value="None" />
 	</item>
-
 
 	<!--
 <item id="1501" name="superWrench">
