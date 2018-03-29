@@ -195,9 +195,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 		<ingredient name="partsAuger_blade" count="1" />
 	</recipe>
 	<recipe name="partsAuger_blade" count="1" craft_area="workbench">
-		<ingredient name="partsAuger_blade" count="1" />
-		<ingredient name="repairKit" count="1" />
-		<ingredient name="forgedSteel" count="2" />
+		<ingredient name="shortMetalPipe" count="10" />
+		<ingredient name="forgedSteel" count="20" />
 	</recipe>
 
 	<recipe name="awningBlock" count="1">
