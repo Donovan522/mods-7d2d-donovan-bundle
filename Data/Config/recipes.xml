@@ -161,7 +161,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 
 <recipe name="ammoArrowFlaming" count="1" craft_area="workbench" tags="learnable">
 	<ingredient name="ammoArrowSteelAP" count="1"/>
-	<ingredient name="resourceGunPowder" count="2"/>
+	<ingredient name="ammoGasCan" count="2"/>
 	<ingredient name="resourceCloth" count="1"/>
 	<ingredient name="resourceTallow" count="1"/>
 </recipe>
@@ -932,7 +932,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 
 <recipe name="drinkJarYuccaJuice" count="1">
 	<ingredient name="foodCropYuccaFruit" count="2"/>
-	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="drinkJarEmpty" count="1"/>
 </recipe>
 
 <recipe name="drinkYuccaJuiceSmoothie" count="1" tags="learnable">
@@ -1172,7 +1172,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 
 <recipe name="foodBaconAndEggs" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
 	<ingredient name="foodEgg" count="2"/>
-	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="foodRawMeat" count="2"/>
 </recipe>
 
 <recipe name="foodBakedPotato" count="1" craft_area="campfire" tags="learnable">
@@ -1188,7 +1188,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="foodBoiledMeat" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
-	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="foodRawMeat" count="1"/>
 	<ingredient name="drinkJarBoiledWater" count="1"/>
 </recipe>
 
@@ -1201,13 +1201,13 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="foodCharredMeat" count="1" craft_area="campfire">
-	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="foodRawMeat" count="1"/>
 </recipe>
 
 <recipe name="foodChiliDog" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
 	<ingredient name="foodCanChili" count="1"/>
 	<ingredient name="foodCornBread" count="1"/>
-	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="foodRawMeat" count="2"/>
 </recipe>
 
 <recipe name="foodCornBread" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
@@ -1235,7 +1235,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="foodGrilledMeat" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="learnable">
-	<ingredient name="foodRawMeat" count="5"/>
+	<ingredient name="foodRawMeat" count="1"/>
 </recipe>
 
 <recipe name="foodHoboStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
@@ -1247,7 +1247,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="foodMeatStew" count="1" craft_area="campfire" craft_tool="toolCookingPot" tags="learnable">
-	<ingredient name="foodRawMeat" count="10"/>
+	<ingredient name="foodRawMeat" count="5"/>
 	<ingredient name="foodCropPotato" count="2"/>
 	<ingredient name="foodCropCorn" count="2"/>
 	<ingredient name="drinkJarBoiledWater" count="1"/>
@@ -1501,12 +1501,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 </recipe>
 
 <recipe name="ironBars" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
-	<ingredient name="unit_iron" count="100"/>
+	<ingredient name="unit_iron" count="40"/>
 	<ingredient name="unit_clay" count="20"/>
 </recipe>
 
 <recipe name="ironBarsCentered" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
-	<ingredient name="unit_iron" count="100"/>
+	<ingredient name="unit_iron" count="40"/>
 	<ingredient name="unit_clay" count="20"/>
 </recipe>
 
@@ -3796,6 +3796,25 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 <recipe name="wroughtIronFenceSheet" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
 	<ingredient name="unit_iron" count="15"/>
 	<ingredient name="unit_clay" count="1"/>
+</recipe>
+
+<recipe name="toolBeaker" count="1" craft_area="forge" craft_tool="toolForgeCrucible">
+	<ingredient name="unit_glass" count="50"/>
+	<ingredient name="unit_lead" count="20"/>
+	<ingredient name="unit_clay" count="20"/>
+</recipe>
+
+-<recipe count="1" name="resourceAcid" craft_area="campfire" craft_tool="toolCookingPot">
+	<ingredient count="5" name="resourcePotassiumNitratePowder"/>
+	<ingredient count="5" name="resourceCoal"/>
+	<ingredient count="1" name="drinkJarRiverWater"/>
+	<ingredient count="1" name="resourceFemur"/>
+</recipe>
+
+-<recipe count="1" name="jailDoor" craft_area="workbench">
+	<ingredient count="50" name="resourceForgedIron"/>
+	<ingredient count="10" name="resourceSpring"/>
+	<ingredient count="10" name="resourceMechanicalParts"/>
 </recipe>
 
 </recipes>

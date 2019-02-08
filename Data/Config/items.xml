@@ -4019,7 +4019,7 @@ We _want_ players to specialise so we also have to make it feasible.
 	<property name="PartType" value="Barrel"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="RepairTools" value="resourceRepairKit"/> <!-- 1 repairKit is worth 2000 -->
-	<property name="Stacknumber" value="1"/>
+	<property name="Stacknumber" value="10"/>
 	<property name="DegradationBreaksAfter" value="false"/>
 	<property name="EconomicValue" value="750"/>
 	<property name="PickupJournalEntry" value="gunAssemblyTip"/>
@@ -7069,7 +7069,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Group" value="Science"/>
 	<property name="EconomicValue" value="15"/>
 	<property name="DescriptionKey" value="medicalFirstAidBandageDesc"/>
-	<property name="Stacknumber" value="10"/>
+	<property name="Stacknumber" value="50"/>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
 	<property name="CraftingIngredientExp" value="2"/>
 
@@ -7112,7 +7112,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Group" value="Science"/>
 	<property name="EconomicValue" value="200"/>
 	<property name="CraftingSkillGroup" value="craftSkillScience"/>
-	<property name="Stacknumber" value="5"/>
+	<property name="Stacknumber" value="25"/>
 	<property class="Action0">
 		<!-- <requirement name="StatCompare" stat="health" operation="lte" value="50"/> -->
 		<property name="Sound_start" value="player_firstAidKit"/>
@@ -7230,7 +7230,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Material" value="Mplastics"/>
 	<property name="Weight" value="6"/>
 	<property name="EconomicValue" value="149"/>
-	<property name="Stacknumber" value="1"/> <!-- STK loot -->
+	<property name="Stacknumber" value="10"/> <!-- STK loot -->
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
 		<property name="Delay" value="1.0"/>
@@ -7271,7 +7271,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="CustomIcon" value="medicalAloeCream"/> <property name="CustomIconTint" value="9f9fff"/>
 	<property name="Material" value="Morganic"/>
-	<property name="Stacknumber" value="25"/> <!-- STK medical -->
+	<property name="Stacknumber" value="50"/> <!-- STK medical -->
 	<property name="EconomicValue" value="50"/>
 	<property name="CraftingIngredientTime" value="20"/>
 	<property name="Group" value="Science"/>
@@ -8540,7 +8540,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="Weight" value="5"/>
-	<property name="Stacknumber" value="15"/> <!-- STK resource -->
+	<property name="Stacknumber" value="25"/> <!-- STK resource -->
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="1"/>
 	<property name="SellableToTrader" value="false"/>
@@ -8579,7 +8579,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mmetal"/>
 	<property name="Weight" value="5"/>
-	<property name="Stacknumber" value="1"/>
+	<property name="Stacknumber" value="25"/>
 	<property name="EconomicValue" value="40"/>
 	<property name="CraftingIngredientTime" value="10"/>
 	<property class="Action0">
@@ -9031,7 +9031,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="Mglass"/>
 	<property name="Weight" value="10"/>
-	<property name="Stacknumber" value="100"/> <!-- STK resource -->
+	<property name="Stacknumber" value="500"/> <!-- STK resource -->
 	<property name="EconomicValue" value="48"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -9103,7 +9103,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Material" value="Mpaper"/>
 	<property name="Weight" value="5"/>
 	<property name="FuelValue" value="5"/>
-	<property name="Stacknumber" value="1"/> <!-- STK book -->
+	<property name="Stacknumber" value="10"/> <!-- STK book -->
 	<property name="EconomicValue" value="250"/>
 	<property name="Group" value="Books"/>
 </item>
@@ -9775,7 +9775,7 @@ So no clothing dyes until that can be resolved. -->
 <item name="unlockBookMaster">
 	<property name="Extends" value="schematicMaster" param1="DescriptionKey"/>
 	<property name="CreativeMode" value="None"/>
-	<property name="Stacknumber" value="5"/>
+	<property name="Stacknumber" value="10"/>
 	<property name="EconomicValue" value="200"/>
 	<property class="Action0">
 		<property name="Class" value="Eat"/>
@@ -10766,7 +10766,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="CustomIcon" value="terrSnow"/>
 	<property name="Material" value="MresourceSnowBall"/>
 	<property name="Weight" value="5"/>
-	<property name="Stacknumber" value="20000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="150"/>
 	<property name="SellableToTrader" value="false"/>
@@ -10804,7 +10804,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Material" value="MresourceYuccaFibers"/>
 	<property name="RepairTime" value="1"/>
 	<property name="RepairAmount" value="30"/>
-	<property name="Stacknumber" value="5000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="20000"/> <!-- STK resource -->
 	<property name="FuelValue" value="1"/>
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="50"/>
@@ -10917,7 +10917,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourceScrapPolymers"/>
 	<property name="Weight" value="1"/>
-	<property name="Stacknumber" value="5000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
 	<property name="EconomicValue" value="16"/>
 	<property name="Group" value="Resources"/>
 	<property name="CraftingIngredientExp" value="15"/>
@@ -10931,7 +10931,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourceOilShale"/>
-	<property name="Stacknumber" value="5000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="20000"/> <!-- STK resource -->
 	<property name="FuelValue" value="5"/>
 	<property name="EconomicValue" value="5"/>
 	<property name="EconomicBundleSize" value="50"/>
@@ -11121,7 +11121,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourceScrapBrassSmall"/>
-	<property name="Stacknumber" value="5000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -11133,7 +11133,7 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 	<property name="Material" value="MresourceScrapLeadSmall"/>
-	<property name="Stacknumber" value="5000"/> <!-- STK resource -->
+	<property name="Stacknumber" value="1000"/> <!-- STK resource -->
 	<property name="Weight" value="1"/>
 	<property name="EconomicValue" value="20"/>
 	<property name="EconomicBundleSize" value="10"/>
@@ -11947,9 +11947,9 @@ So no clothing dyes until that can be resolved. -->
 	<property name="Weight" value="1"/>
 	<property name="Group" value="Resources"/>
 	<property name="ResourceUnit" value="true"/>
-	<property name="MeltTimePerUnit" value="0.25"/>
+	<property name="MeltTimePerUnit" value="0.05"/>
 	<property name="UserHidden" value="true"/>
-	<property name="CraftingIngredientTime" value="0.5"/>
+	<property name="CraftingIngredientTime" value="0.05"/>
 	<property name="CreativeMode" value="None"/>
 </item>
 
